@@ -1,5 +1,5 @@
 //
-//  GenerateRandomString.h
+//  SOGenerateRandomString.h
 //  Paperboy Assistant
 //
 //  Created by Justin Proulx on 2017-02-05.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface GenerateRandomString : NSString
+@interface SOGenerateRandomString : NSString
 
 -(NSString *) randomStringWithLength: (int) len;
 

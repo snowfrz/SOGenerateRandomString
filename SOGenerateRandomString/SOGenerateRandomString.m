@@ -1,5 +1,5 @@
 //
-//  GenerateRandomString.m
+//  SOGenerateRandomString.m
 //  Paperboy Assistant
 //
 //  Created by Justin Proulx on 2017-02-05.
@@ -8,13 +8,13 @@
 //  http://stackoverflow.com/questions/2633801/generate-a-random-alphanumeric-string-in-cocoa
 //
 //  How to use:
-//  GenerateRandomString *random = [[GenerateRandomString alloc] init];
+//  SOGenerateRandomString *random = [[SOGenerateRandomString alloc] init];
 //  NSString *randomString = [random randomStringWithLength:30];
 
-#import "GenerateRandomString.h"
+#import "SOGenerateRandomString.h"
 
 
-@implementation GenerateRandomString
+@implementation SOGenerateRandomString
 
 -(NSString *) randomStringWithLength: (int) len
 {
